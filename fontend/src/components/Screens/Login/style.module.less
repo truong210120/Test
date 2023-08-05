@@ -1,0 +1,86 @@
+.Login{
+      padding: 0px 9.86111111% 0px 9.86111111%;
+      justify-content: center;
+      background: url('/images/BackgroundLogin.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+
+      .logo{
+            padding-top: 15px;
+            img{
+                  object-fit: contain;
+            }
+      }
+      .formLogin{
+            padding: 50px;
+            align-items: center;
+            height: 55%;
+            // background-color: rgba(0,0,0,.75);
+            border-radius: 15px;
+            h2{
+                  color: white;
+                  font-size: 32px;
+                  font-weight: 600;
+            }
+            .input{
+                  padding: 10px;
+                  background-color: #333;
+                  color: white;
+                  border-color: #333;
+            }
+            .input::placeholder{
+                  color: #8c8c8c;
+                  font-size: 14px;
+            }
+            .buttonLogin{
+                  width: 100%;
+                  border-radius: 15px;
+                  background: #e50914;
+            }
+            .formConfirm{
+                  height: 100%;
+            }
+            .forgotPass{
+                  margin-top: 15px;
+                  width: 100%;
+                  background-color: #5f7ab7;
+                  color: #fff;
+                  cursor: pointer;
+                  text-align: center;
+                  border: none;
+                  background-size: 300% 100%;
+              
+                  border-radius: 15px;
+                  moz-transition: all 0.4s ease-in-out;
+                  -o-transition: all 0.4s ease-in-out;
+                  -webkit-transition: all 0.4s ease-in-;
+                  background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+                  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+            }
+            .forgotPass:hover {
+                  background-position: 100% 0;
+                  moz-transition: all .4s ease-in-out;
+                  -o-transition: all .4s ease-in-out;
+                  -webkit-transition: all .4s ease-in-out;
+                  transition: all .4s ease-in-out;
+                  color: #fff !important;
+              }
+      }
+}
+.blur{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,.75);}
+@media screen and (max-width: 1200px) {
+      .Login {
+        padding: 0px 5% 0px 5%;
+        .formLogin{
+            padding: 30px;
+        }
+      }
+    }
