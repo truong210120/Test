@@ -23,7 +23,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  // distDir: 'dist',
+  distDir: 'dist',
   images: {
     domains: ['s3.cloud.cmctelecom.vn','storage.googleapis.com'],
   },
